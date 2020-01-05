@@ -20,10 +20,8 @@ Nous utiliserons un environnement Jupyter fourni par un conteneur Docker. L'imag
 * Remplacement valeurs manquantes / erronées / aberrantes
 * Ajouts de features
 
-```bash
-    - GiveMeSomeCredit_Préparationdonnées.
-    - Credit-Split_train-val_sklearn.
-```
+<span style="background-color:green"> **GiveMeSomeCredit_Préparationdonnées.**</span>
+<span style="background-color:green"> **Credit-Split_train-val_sklearn.**</span>
 
 Note: vous pouvez utiliser le notebook [Intro-Pandas.ipynb](Intro-Pandas.ipynb) pour vous familiariser avec la librairie Pandas.
 
@@ -31,9 +29,7 @@ Note: vous pouvez utiliser le notebook [Intro-Pandas.ipynb](Intro-Pandas.ipynb) 
 
 * Comparer AUC de `ensemble` et de `deepnet` sur les données préparées (apprentissage sur train, evaluation sur val), et choisissez la meilleure des deux techniques pour la suite.
 
-```bash
-    - GiveMeSomeCredit_Modèle d'apprentissage
-```
+<span style="background-color:green"> **GiveMeSomeCredit_Modèle d'apprentissage.**</span>
 
 ## Analyse de modèle
 
@@ -49,9 +45,7 @@ Note: vous pouvez utiliser le notebook [Intro-Pandas.ipynb](Intro-Pandas.ipynb) 
   * Interprétations à noter dans le notebook (mentionner l'id de l'objet, et votre interprétation, par ex: valeurs de features anormales, etc.)
 * Proposez des idées pour améliorer la préparation des données, en vous basant sur l'analyse des erreurs
 
-```bash
-    - GiveMeSomeCredit_Evaluation du modèle
-```
+<span style="background-color:green"> **GiveMeSomeCredit_Evaluation du modèle.**</span>
 
 ## Optimisation du seuil de classification
 
@@ -62,9 +56,7 @@ Trouver seuil qui optimise le gain total sur le validation set, pour la matrice 
   | 0 | $500 | -$500 |
   | 1 | -$2500 | $0 |
     
-```bash
-    - GiveMeSomeCredit_Evaluation du modèle
-```
+<span style="background-color:green"> **GiveMeSomeCredit_Evaluation du modèle.**</span>
 
 ## Envoi de prédictions à Kaggle
 
@@ -73,26 +65,21 @@ Trouver seuil qui optimise le gain total sur le validation set, pour la matrice 
 * Envoi des prédictions à Kaggle [via Python](https://github.com/kaggle/kaggle-api)
 * Essayez d'obtenir le meilleur résultat possible!
 
-```bash
-    - GiveMeSomeCredit_KaggleSubmission : 
-```
+<span style="background-color:green"> **GiveMeSomeCredit_KaggleSubmission.**</span>
 
 ## Bonus: learning curves
 
 * Comparez performance de “ensemble” et de “deepnet” sur val set, pour afficher des courbes (learning curves) comme à la page 11 de Machine Learning Yearning: en abscisse, pourcentage de données de train utilisées pour créer un modèle; en ordonnée, AUC du modèle créé, sur le val set.
 * Afficher également la performance sur train set.
 
-```bash
-    - Credit-Model-Create-sklearn
-```
+<span style="background-color:green"> **Credit-Model-Create-sklearn.**</span>
 
 ## Bonus: scikit-learn et XGBoost
 
 * Parcourez le notebook [Intro-sklearn-xgboost.ipynb](Intro-sklearn-xgboost.ipynb) et adaptez votre code pour créer des modèles sans avoir à utiliser BigML
 
-```bash
-    - Credit-Split_train-val_sklearn
-    - Credit-Model-Create-sklearn
-    - Credit-Model-Test-Kaggle-Create-sklearn
-```
+<span style="background-color:green"> **Credit-Split_train-val_sklearn.**</span>
 
+<span style="background-color:green"> **Credit-Model-Create-sklearn.**</span>
+
+<span style="background-color:green"> **Credit-Model-Test-Kaggle-Create-sklearn.**</span>
