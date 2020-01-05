@@ -19,9 +19,10 @@ Nous utiliserons un environnement Jupyter fourni par un conteneur Docker. L'imag
 * Partage de train full en train et validation.
 * Remplacement valeurs manquantes / erronées / aberrantes
 * Ajouts de features
+```diff
     - GiveMeSomeCredit_Préparationdonnées.
     - Credit-Split_train-val_sklearn.
-
+```
 Note: vous pouvez utiliser le notebook [Intro-Pandas.ipynb](Intro-Pandas.ipynb) pour vous familiariser avec la librairie Pandas.
 
 ## Création et sélection de modèle (avec [BigML Python](http://bigml.readthedocs.io))
