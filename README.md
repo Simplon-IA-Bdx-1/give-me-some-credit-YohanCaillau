@@ -21,6 +21,7 @@ Nous utiliserons un environnement Jupyter fourni par un conteneur Docker. L'imag
 * Ajouts de features
 
 <span style="background-color:green"> **GiveMeSomeCredit_Préparationdonnées.**</span>
+
 <span style="background-color:green"> **Credit-Split_train-val_sklearn.**</span>
 
 Note: vous pouvez utiliser le notebook [Intro-Pandas.ipynb](Intro-Pandas.ipynb) pour vous familiariser avec la librairie Pandas.
