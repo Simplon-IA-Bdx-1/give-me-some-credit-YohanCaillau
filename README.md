@@ -19,7 +19,7 @@ Nous utiliserons un environnement Jupyter fourni par un conteneur Docker. L'imag
 * Partage de train full en train et validation.
 * Remplacement valeurs manquantes / erronées / aberrantes
 * Ajouts de features
-```diff
+```python
     - GiveMeSomeCredit_Préparationdonnées.
     - Credit-Split_train-val_sklearn.
 ```
